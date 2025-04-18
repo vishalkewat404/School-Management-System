@@ -1,0 +1,23 @@
+# Ignore build folders
+bin/
+obj/
+
+# Ignore Visual Studio folder
+.vs/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.sln.docstates
+
+# Ignore configuration
+appsettings.Development.json
+secrets.json
+
+# Ignore logs and DB files
+*.log
+*.db
+*.sqlite
+
+# Ignore Rider and Resharper
+.idea/
